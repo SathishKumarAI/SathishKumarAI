@@ -98,7 +98,6 @@ Hello and welcome to my GitHub page! I'm passionate about data science, analytic
 
 - [About Me](#about-me)
 - [Projects](#projects)
-- [How to Use This Repository](#how-to-use-this-repository)
 - [Contact](#contact)
 - [Contributing](#contributing)
 
