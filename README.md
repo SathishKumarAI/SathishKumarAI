@@ -137,17 +137,6 @@ Here are some of my featured projects. For a full list, visit the repository sec
    - **Skills Used**: Tableau, Data Visualization
    - **Link**: [Project Repo](#)
 -->
-For more details on all projects, check the individual repository links.
-
-## How to Use This Repository
-
-Feel free to explore my projects to see how I approach different challenges in data analysis, system design, and software engineering. Each repository comes with detailed documentation, including:
-1. **Setup Instructions**: Clear steps to run the project on your local machine.
-2. **Code Overview**: Explanation of the logic and structure behind the code.
-3. **Demo**: For applicable projects, a demo or visualization of results.
-4. **Insights and Learnings**: Key takeaways and lessons from each project.
-
-Clone or fork any of the repositories if you'd like to try out the code or build upon it. If you find an issue, feel free to open a pull request or an issue!
 
 ## Contact
 
