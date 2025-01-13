@@ -82,7 +82,7 @@ Here are some ideas to get you started:
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> 
 </p>  -->
 
-<p> <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sathishkumar9866&show_icons=true&locale=en&layout=compact" alt="sathishkumar9866" /></p>
+<!-- <p> <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sathishkumar9866&show_icons=true&locale=en&layout=compact" alt="sathishkumar9866" /></p> -->
 
 <!-- <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sathishkumar9866&show_icons=true&locale=en" alt="sathishkumar9866" /></p>
 
