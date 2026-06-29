@@ -141,7 +141,7 @@ Here are some of my featured projects. For a full list, visit the repository sec
 
 If you’re interested in collaborating, have any questions, or would like to get in touch, you can reach me at:
 - **Email**: sathishkumar786.ml@gmail.com
-- **LinkedIn**: [LinkedIn Profile](https://github.com/SathishKumar9866)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/SathishKumarAI)
 - **Portfolio**: [Website/Portfolio](#) #Currently Working on it. 
 
 Feel free to drop me a message, and I'll get back to you as soon as possible!
