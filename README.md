@@ -103,7 +103,7 @@ Hello and welcome to my GitHub page! I'm passionate about data science, analytic
 
 ## About Me
 
-I'm an Associate ML engineer and data enthusiast with a background in developing scalable systems, creating ETL pipelines, and applying advanced analytics to real-world problems. 
+I'm an ML engineer and data enthusiast with a background in developing scalable systems, creating ETL pipelines, and applying advanced analytics to real-world problems. 
 My expertise includes:
 - **Data Analysis and Modeling**: Using Python, SQL, and machine learning to derive insights from data.
 - **ETL Pipelines**: Designing and implementing end-to-end data pipelines with tools like PySpark.
