@@ -12,13 +12,13 @@ on Ollama before you ever pay for a hosted model.** Same discipline, three domai
 
 ## What I work on
 
-- **RAG that you can trust** — citation-grounded retrieval, so an answer points back at
+- **RAG that you can trust.** Citation-grounded retrieval, so an answer points back at
   the source passage instead of asking you to trust the model.
-- **Local-first by default** — Ollama plus open-source embeddings out of the box; a
+- **Local-first by default.** Ollama plus open-source embeddings out of the box; a
   single env var swaps in Claude when you want it. No API key required to try the work.
-- **Shipped, not notebooks** — FastAPI backends, Next.js frontends, Docker, and CI so a
+- **Shipped, not notebooks.** FastAPI backends, Next.js frontends, Docker, and CI so a
   non-technical user can open a browser and use it.
-- **Computer vision** — object detection and tracking, including federated training where
+- **Computer vision.** Object detection and tracking, including federated training where
   the data cannot leave the client.
 
 ## Featured work
@@ -26,13 +26,13 @@ on Ollama before you ever pay for a hosted model.** Same discipline, three domai
 | Project | What it is | Stack |
 |---|---|---|
 | [ai-due-diligence-copilot](https://github.com/SathishKumarAI/ai-due-diligence-copilot) | RAG Q&A over deal documents (pitch decks, 10-Ks, term sheets). Answers cite the source passage for every claim. | FastAPI, Next.js, Ollama/Claude, open-source embeddings |
-| [engineering-intelligence-hub](https://github.com/SathishKumarAI/engineering-intelligence-hub) | RAG over internal engineering docs — RFCs, runbooks, ADRs, API references — with per-claim citations. | FastAPI, Next.js, Ollama/Claude |
-| [healthcare-knowledge-navigator](https://github.com/SathishKumarAI/healthcare-knowledge-navigator) | Clinical RAG over medical reference docs. Cited, synthetic-data-only, framed as support for professionals — not medical advice. | FastAPI, Next.js, Ollama/Claude |
+| [engineering-intelligence-hub](https://github.com/SathishKumarAI/engineering-intelligence-hub) | RAG over internal engineering docs (RFCs, runbooks, ADRs, API references) with per-claim citations. | FastAPI, Next.js, Ollama/Claude |
+| [healthcare-knowledge-navigator](https://github.com/SathishKumarAI/healthcare-knowledge-navigator) | Clinical RAG over medical reference docs. Cited, synthetic-data-only, framed as support for professionals, not medical advice. | FastAPI, Next.js, Ollama/Claude |
 | [rag-pipeline-langchain](https://github.com/SathishKumarAI/rag-pipeline-langchain) | The heavier pipeline: LangChain/LangGraph retrieval on AWS, Pinecone vector store, MLflow tracking, GitOps deploy. | LangChain, LangGraph, Pinecone, MLflow, S3/DynamoDB, K8s/Helm |
-| [federated-yolov8-object-detection](https://github.com/SathishKumarAI/federated-yolov8-object-detection) | YOLOv8 trained across distributed clients with Flower — collaborative detection without moving the raw data. | YOLOv8, Flower, PyTorch |
+| [federated-yolov8-object-detection](https://github.com/SathishKumarAI/federated-yolov8-object-detection) | YOLOv8 trained across distributed clients with Flower for collaborative detection without moving the raw data. | YOLOv8, Flower, PyTorch |
 | [pediatric-care-platform](https://github.com/SathishKumarAI/pediatric-care-platform) | Local-first desktop app: AI symptom checker over a symptom→disease knowledge graph plus clinical workflows. Prototype on synthetic data. | Tauri, FastAPI, Next.js 15 |
 
-More in the [repositories tab](https://github.com/SathishKumarAI?tab=repositories) —
+More in the [repositories tab](https://github.com/SathishKumarAI?tab=repositories),
 including `pickleball-vision-llm` (detection + tracking pipeline) and `rocky-dev-setup`
 (a one-command Rocky Linux dev environment on mise + chezmoi).
 
@@ -48,9 +48,14 @@ including `pickleball-vision-llm` (detection + tracking pipeline) and `rocky-dev
 
 ## Activity
 
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SathishKumarAI&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=cba6f7&text_color=cdd6f4" alt="Most used languages" />
-</p>
+Languages I work in, most-used first:
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?logo=gnubash&logoColor=white)
+
 <p>
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=SathishKumarAI&hide_border=true&background=00000000&stroke=cba6f7&ring=89b4fa&fire=89b4fa&currStreakLabel=cba6f7&sideLabels=cdd6f4&dates=6c7086&currStreakNum=cdd6f4&sideNums=cdd6f4" alt="Contribution streak" />
 </p>
