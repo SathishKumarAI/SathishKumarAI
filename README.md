@@ -1,10 +1,12 @@
 # Sathish Kumar
 
 I work across the full data-to-AI stack and care about the problem more than the title:
-**data engineering, data science, machine learning, and AI engineering.** From building
-the pipelines and data models, to analysing data and training models, to shipping LLM and
-vision systems a person can actually open and use. Open to roles at any point on that path,
-and to any domain.
+data engineering, data science, machine learning, and AI engineering. The thread through
+all of it is the same. I take a real problem end to end, from the data and the model to a
+working interface, and ship something a person can actually open and use. The work tends to
+run offline, ground its answers in real sources, and be easy to try in a minute, because
+that is what makes it worth building. Open to roles at any point on that path, and to any
+domain.
 
 Calm, disciplined, focused on what I can control.
 
