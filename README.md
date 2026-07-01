@@ -48,13 +48,13 @@ across borrowers with a worksheet view of every calculation).
 
 ## Activity
 
-Languages I work in, most-used first:
+Languages I work with:
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?logo=gnubash&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?logo=gnubash&logoColor=white)
 
 <p>
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=SathishKumarAI&hide_border=true&background=00000000&stroke=cba6f7&ring=89b4fa&fire=89b4fa&currStreakLabel=cba6f7&sideLabels=cdd6f4&dates=6c7086&currStreakNum=cdd6f4&sideNums=cdd6f4" alt="Contribution streak" />
