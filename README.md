@@ -1,6 +1,6 @@
 # Sathish Kumar
 
-ML/AI engineer. I build end-to-end systems: LLM and RAG services, computer-vision
+AI engineer. I build end-to-end systems: LLM and RAG services, computer-vision
 pipelines, and the full-stack apps and tooling around them. I like taking a problem from
 model to a thing a person can actually open and use.
 
@@ -65,5 +65,5 @@ Languages I work with:
 - Email: sathishkumar786.ml@gmail.com
 - LinkedIn: [in/SathishKumarAI](https://www.linkedin.com/in/SathishKumarAI)
 
-Open to ML/AI engineering roles and collaboration across LLM apps, computer vision, and
+Open to AI engineering roles and collaboration across LLM apps, computer vision, and
 full-stack work. If something here is useful to you, reach out.
