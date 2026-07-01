@@ -1,8 +1,10 @@
 # Sathish Kumar
 
-AI engineer. I build end-to-end systems: LLM and RAG services, computer-vision
-pipelines, and the full-stack apps and tooling around them. I like taking a problem from
-model to a thing a person can actually open and use.
+I work across the full data-to-AI stack and care about the problem more than the title:
+**data engineering, data science, machine learning, and AI engineering.** From building
+the pipelines and data models, to analysing data and training models, to shipping LLM and
+vision systems a person can actually open and use. Open to roles at any point on that path,
+and to any domain.
 
 Calm, disciplined, focused on what I can control.
 
@@ -40,11 +42,12 @@ across borrowers with a worksheet view of every calculation).
 
 | Area | Tools |
 |---|---|
+| Data engineering | PySpark, ETL pipelines, PostgreSQL, DynamoDB, S3, SQL |
+| Data science | pandas, NumPy, scikit-learn, exploratory analysis, evaluation metrics |
 | LLM / RAG | LangChain, LangGraph, Ollama, Claude, Pinecone, sentence-transformers, citation-grounded retrieval |
 | Computer vision | YOLOv8, OpenCV, object detection & tracking, federated learning (Flower), PyTorch |
 | MLOps & infra | MLflow, Docker, GitHub Actions, Kubernetes, Helm, mise, chezmoi |
-| Backend & data | Python, FastAPI, PySpark, PostgreSQL, DynamoDB, S3, semantic search |
-| Frontend & apps | Next.js, React, TypeScript, Tailwind, Tauri |
+| Backend & apps | Python, FastAPI, Next.js, React, TypeScript, Tauri |
 
 ## Activity
 
@@ -65,5 +68,5 @@ Languages I work with:
 - Email: sathishkumar786.ml@gmail.com
 - LinkedIn: [in/SathishKumarAI](https://www.linkedin.com/in/SathishKumarAI)
 
-Open to AI engineering roles and collaboration across LLM apps, computer vision, and
-full-stack work. If something here is useful to you, reach out.
+Open to data engineering, data science, ML, and AI engineering roles, and to any domain.
+If something here is useful to you, reach out.
