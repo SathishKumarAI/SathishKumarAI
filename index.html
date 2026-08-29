@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sathish Kumar — AI engineer</title>
+<meta name="description" content="AI engineer. I take a problem end to end — data, model, interface — and ship something a person can open. Grounded in real sources, offline by default.">
+<meta property="og:title" content="Sathish Kumar — AI engineer">
+<meta property="og:description" content="Data, model, interface. Shipped, grounded, offline by default.">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+  // Resolve the appearance before first paint so the page never flashes the wrong one.
+  var stored = null;
+  try { stored = localStorage.getItem('theme'); } catch (e) {}
+  document.documentElement.dataset.theme =
+    stored || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+</script>
+</head>
+<body>
+
+<!-- Icon sprite: Lucide (the icon set shadcn/ui ships with), inlined so the page has no runtime dependency. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <g id="i-database"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></g>
+    <g id="i-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></g>
+    <g id="i-cpu"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></g>
+    <g id="i-flask"><path d="M10 2v7.5a2 2 0 0 1-.2.9L4.7 20.5a1 1 0 0 0 .9 1.5h12.8a1 1 0 0 0 .9-1.5l-5.1-10.1a2 2 0 0 1-.2-.9V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></g>
+    <g id="i-rocket"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91 0z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></g>
+    <g id="i-terminal"><polyline points="4 17 10 11 4 5"/><line x1="12" x2="20" y1="19" y2="19"/></g>
+    <g id="i-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></g>
+    <g id="i-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></g>
+    <g id="i-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g>
+    <g id="i-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></g>
+    <g id="i-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></g>
+    <g id="i-arrow"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></g>
+  </defs>
+</svg>
+
+<a class="skip" href="#trace">Skip to the run</a>
+
+<header class="bar">
+  <span class="bar__id">run · sathish-kumar</span>
+  <span class="bar__status"><i class="dot"></i>open to roles</span>
+  <nav class="bar__links">
+    <a href="https://github.com/SathishKumarAI" aria-label="GitHub"><svg class="ico" viewBox="0 0 24 24"><use href="#i-github"/></svg></a>
+    <a href="https://www.linkedin.com/in/SathishKumarAI" aria-label="LinkedIn"><svg class="ico" viewBox="0 0 24 24"><use href="#i-linkedin"/></svg></a>
+    <a href="mailto:sathishkumar786.ml@gmail.com" aria-label="Email"><svg class="ico" viewBox="0 0 24 24"><use href="#i-mail"/></svg></a>
+    <button id="theme" class="toggle" type="button" aria-label="Switch appearance" aria-pressed="false">
+      <svg class="ico ico--sun" viewBox="0 0 24 24"><use href="#i-sun"/></svg>
+      <svg class="ico ico--moon" viewBox="0 0 24 24"><use href="#i-moon"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <h1>Sathish&nbsp;Kumar</h1>
+  <p class="hero__role">AI engineer · data → model → interface</p>
+  <p class="hero__lede">
+    I take a real problem end to end and ship something a person can open and use.
+    The work runs offline where it can, points back at the source it used, and is
+    easy to try in a minute. Calm, disciplined, focused on what I can control.
+  </p>
+
+  <div class="system" role="group" aria-label="Operating rules">
+    <p class="eyebrow">system</p>
+    <dl>
+      <dt>ground_every_claim</dt><dd>An answer names the passage it came from. No asking you to trust it.</dd>
+      <dt>local_first</dt><dd>Runs offline with no account and no key. One env var opts into a hosted model.</dd>
+      <dt>ship_the_interface</dt><dd>FastAPI and Next.js, Docker, CI, and often a live URL a non-technical person can open.</dd>
+      <dt>work_across_domains</dt><dd>Retrieval, detection and tracking, knowledge graphs, extraction, dev environments.</dd>
+    </dl>
+  </div>
+</section>
+
+<!-- The waterfall: one span per stage. Bar width = number of repos in that stage. -->
+<section class="waterfall" id="trace" aria-label="The run, stage by stage">
+  <p class="eyebrow">trace · 15 repos across 6 stages</p>
+  <ol class="spans">
+    <li class="span" style="--start:0;  --len:3; --tint:var(--peach)"><a href="#ingest"><span class="span__n">ingest</span><span class="span__track"><span class="span__bar"></span></span><span class="span__c">3</span></a></li>
+    <li class="span" style="--start:3;  --len:3; --tint:var(--mauve)"><a href="#retrieve"><span class="span__n">retrieve</span><span class="span__track"><span class="span__bar"></span></span><span class="span__c">3</span></a></li>
+    <li class="span" style="--start:6;  --len:2; --tint:var(--blue)"><a href="#train"><span class="span__n">train</span><span class="span__track"><span class="span__bar"></span></span><span class="span__c">2</span></a></li>
+    <li class="span" style="--start:8;  --len:1; --tint:var(--teal)"><a href="#evaluate"><span class="span__n">evaluate</span><span class="span__track"><span class="span__bar"></span></span><span class="span__c">1</span></a></li>
+    <li class="span" style="--start:9;  --len:5; --tint:var(--green)"><a href="#serve"><span class="span__n">serve</span><span class="span__track"><span class="span__bar"></span></span><span class="span__c">5</span></a></li>
+    <li class="span" style="--start:14; --len:1; --tint:var(--yellow)"><a href="#operate"><span class="span__n">operate</span><span class="span__track"><span class="span__bar"></span></span><span class="span__c">1</span></a></li>
+  </ol>
+</section>
+
+<div class="run">
+
+  <!-- Rail: the same waterfall, pinned, tracking where you are. -->
+  <nav class="rail" aria-label="Stages">
+    <ol>
+      <li><a href="#ingest"   data-rail="ingest"   style="--start:0;  --len:3; --tint:var(--peach)"><svg class="ico" viewBox="0 0 24 24"><use href="#i-database"/></svg><span>ingest</span><span class="rail__track"><span class="rail__bar"></span></span></a></li>
+      <li><a href="#retrieve" data-rail="retrieve" style="--start:3;  --len:3; --tint:var(--mauve)"><svg class="ico" viewBox="0 0 24 24"><use href="#i-search"/></svg><span>retrieve</span><span class="rail__track"><span class="rail__bar"></span></span></a></li>
+      <li><a href="#train"    data-rail="train"    style="--start:6;  --len:2; --tint:var(--blue)"><svg class="ico" viewBox="0 0 24 24"><use href="#i-cpu"/></svg><span>train</span><span class="rail__track"><span class="rail__bar"></span></span></a></li>
+      <li><a href="#evaluate" data-rail="evaluate" style="--start:8;  --len:1; --tint:var(--teal)"><svg class="ico" viewBox="0 0 24 24"><use href="#i-flask"/></svg><span>evaluate</span><span class="rail__track"><span class="rail__bar"></span></span></a></li>
+      <li><a href="#serve"    data-rail="serve"    style="--start:9;  --len:5; --tint:var(--green)"><svg class="ico" viewBox="0 0 24 24"><use href="#i-rocket"/></svg><span>serve</span><span class="rail__track"><span class="rail__bar"></span></span></a></li>
+      <li><a href="#operate"  data-rail="operate"  style="--start:14; --len:1; --tint:var(--yellow)"><svg class="ico" viewBox="0 0 24 24"><use href="#i-terminal"/></svg><span>operate</span><span class="rail__track"><span class="rail__bar"></span></span></a></li>
+    </ol>
+  </nav>
+
+  <div class="stages">
+
+    <section class="stage" id="ingest" style="--tint:var(--peach)">
+      <header>
+        <svg class="ico ico--lg" viewBox="0 0 24 24"><use href="#i-database"/></svg>
+        <h2>ingest</h2>
+        <p>Messy input — video, reels, PDFs — turned into something a model can read.</p>
+      </header>
+      <ul class="cards">
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/liver-report-ai-public">liver-report-ai-public<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>Scanned lab reports become a verified time series, with no cloud involved. Synthetic demo data only.</p>
+          <p class="card__stack">local OCR · self-contained dashboard</p>
+        </li>
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/instagram-reels-extractor">instagram-reels-extractor<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>Turns a reel into structured text — caption, transcript, OCR, vision — then renders a PDF and a docs site with local semantic search over the result.</p>
+          <p class="card__stack">Python · transcription · OCR · embeddings</p>
+        </li>
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/pickleball-vision-llm">pickleball-vision-llm<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>Detection and tracking over match footage, split into vision, ML, API and frontend layers so each one can be replaced on its own.</p>
+          <p class="card__stack">Python · OpenCV · PostgreSQL · Docker</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="stage" id="retrieve" style="--tint:var(--mauve)">
+      <header>
+        <svg class="ico ico--lg" viewBox="0 0 24 24"><use href="#i-search"/></svg>
+        <h2>retrieve</h2>
+        <p>Answers that cite the passage they came from. This is the part I care about most.</p>
+      </header>
+      <ul class="cards">
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/ai-due-diligence-copilot">ai-due-diligence-copilot<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>Q&amp;A over deal documents — pitch decks, 10-Ks, term sheets — where every claim links back to the passage it used. Runs offline first.</p>
+          <p class="card__stack">FastAPI · Next.js · Ollama/Claude · embeddings</p>
+        </li>
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/engineering-intelligence-hub">engineering-intelligence-hub<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>A cited retrieval service over engineering documentation.</p>
+          <p class="card__stack">Python · RAG</p>
+        </li>
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/healthcare-knowledge-navigator">healthcare-knowledge-navigator<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>The same grounding contract applied to clinical sources.</p>
+          <p class="card__stack">Python · RAG</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="stage" id="train" style="--tint:var(--blue)">
+      <header>
+        <svg class="ico ico--lg" viewBox="0 0 24 24"><use href="#i-cpu"/></svg>
+        <h2>train</h2>
+        <p>Two training runs on data that does not travel easily: one federated across clients, one on medical imaging.</p>
+      </header>
+      <ul class="cards">
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/federated-yolov8-object-detection">federated-yolov8-object-detection<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>YOLOv8 trained across distributed clients with Flower. Weights travel, raw data never leaves the client.</p>
+          <p class="card__stack">YOLOv8 · Flower · PyTorch</p>
+        </li>
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/rsna-knee-2026">rsna-knee-2026<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>Knee MRI read as 2.5D volumes for multi-label abnormality detection. RSNA Kaggle competition, 2026.</p>
+          <p class="card__stack">PyTorch · medical imaging</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="stage" id="evaluate" style="--tint:var(--teal)">
+      <header>
+        <svg class="ico ico--lg" viewBox="0 0 24 24"><use href="#i-flask"/></svg>
+        <h2>evaluate</h2>
+        <p>A retrieval system you cannot measure is a retrieval system you cannot fix.</p>
+      </header>
+      <ul class="cards">
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/rag-pipeline-langchain">rag-pipeline-langchain<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>A retrieval pipeline on AWS with an MLflow-tracked eval loop and a GitOps deploy path, so a change to the chain shows up as a number before it ships.</p>
+          <p class="card__stack">LangChain · LangGraph · Pinecone · MLflow · S3/DynamoDB · K8s/Helm</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="stage" id="serve" style="--tint:var(--green)">
+      <header>
+        <svg class="ico ico--lg" viewBox="0 0 24 24"><use href="#i-rocket"/></svg>
+        <h2>serve</h2>
+        <p>The part most models never reach: a screen someone who is not an engineer can open.</p>
+      </header>
+      <ul class="cards">
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/pediatric-care-platform">pediatric-care-platform<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>A local-first desktop app: an AI symptom checker over a symptom-to-disease knowledge graph, plus the clinical workflows around it. Synthetic data throughout.</p>
+          <p class="card__stack">Tauri · FastAPI · Next.js 15</p>
+        </li>
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/pb-card-deck">pb-card-deck<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>A mobile-first pickleball card game and scorekeeper. Draw a twist card mid-match and keep score — no login, and no signal needed after the first load.</p>
+          <p class="card__stack">React · TypeScript · PWA · <a href="https://pb-card-deck.vercel.app">live</a></p>
+        </li>
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/prepforge">prepforge<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>Interview prep that schedules the next review for you — AI, ML and data science questions, studied locally.</p>
+          <p class="card__stack">TypeScript · spaced repetition</p>
+        </li>
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/bujo">bujo<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>A private bullet journal with rapid logging and habit tracking. No backend — the data stays in the browser.</p>
+          <p class="card__stack">React · TypeScript · Tailwind</p>
+        </li>
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/loan-division-emi-tracker">loan-division-emi-tracker<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>Splits a variable-rate EMI across borrowers and shows the worksheet behind every figure.</p>
+          <p class="card__stack">Python · web</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="stage" id="operate" style="--tint:var(--yellow)">
+      <header>
+        <svg class="ico ico--lg" viewBox="0 0 24 24"><use href="#i-terminal"/></svg>
+        <h2>operate</h2>
+        <p>The machine the whole run happens on, reproducible from one command.</p>
+      </header>
+      <ul class="cards">
+        <li class="card">
+          <a class="card__title" href="https://github.com/SathishKumarAI/rocky-dev-setup">rocky-dev-setup<svg class="ico ico--sm" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <p>One command stands up a Rocky Linux dev environment on mise and chezmoi — runtimes pinned, dotfiles tracked, nothing installed by hand.</p>
+          <p class="card__stack">Shell · mise · chezmoi</p>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+</div>
+
+<section class="registry">
+  <p class="eyebrow">tools available</p>
+  <dl class="registry__list">
+    <dt>data</dt><dd>PySpark · ETL · PostgreSQL · DynamoDB · S3 · SQL</dd>
+    <dt>science</dt><dd>pandas · NumPy · scikit-learn · evaluation metrics</dd>
+    <dt>llm</dt><dd>LangChain · LangGraph · Ollama · Claude · Pinecone · sentence-transformers</dd>
+    <dt>vision</dt><dd>YOLOv8 · OpenCV · tracking · Flower · PyTorch</dd>
+    <dt>mlops</dt><dd>MLflow · Docker · GitHub Actions · Kubernetes · Helm · mise · chezmoi</dd>
+    <dt>apps</dt><dd>Python · FastAPI · Next.js · React · TypeScript · Tauri</dd>
+    <dt>languages</dt><dd>Python · R · TypeScript · JavaScript · Shell</dd>
+  </dl>
+</section>
+
+<footer class="end">
+  <p class="eyebrow"><i class="dot"></i>run complete</p>
+  <h2>Open to data engineering, data science, ML and AI engineering roles, in any domain.</h2>
+  <p>If something here is useful to you, reach out.</p>
+  <p class="end__links">
+    <a href="mailto:sathishkumar786.ml@gmail.com"><svg class="ico" viewBox="0 0 24 24"><use href="#i-mail"/></svg>sathishkumar786.ml@gmail.com</a>
+    <a href="https://www.linkedin.com/in/SathishKumarAI"><svg class="ico" viewBox="0 0 24 24"><use href="#i-linkedin"/></svg>in/SathishKumarAI</a>
+    <a href="https://github.com/SathishKumarAI?tab=repositories"><svg class="ico" viewBox="0 0 24 24"><use href="#i-github"/></svg>every repo</a>
+  </p>
+</footer>
+
+</main>
+<script src="main.js" defer></script>
+</body>
+</html>
