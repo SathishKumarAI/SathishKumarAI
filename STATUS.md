@@ -3,9 +3,29 @@
 **Paused 2026-08-28.** A static one-page site lives here alongside the profile README.
 Committed on `feat/lifecycle-portfolio-site`, not pushed, no PR opened yet.
 
+## Updated 2026-10-27
+
+**This repo had two clones on disk and now has one.** `shelf/product/github-profile-readme`
+was a second working copy of this same GitHub repo, carrying a `CLAUDE.md` this clone did
+not have at all - one commit unpushed, 48 further lines uncommitted. Both commits were
+transferred here by `git fetch ../github-profile-readme main:main` (a fast-forward, so they
+are byte-identical rather than retyped), merged as PR #1, and the retired clone was moved
+to `~/Documents/coding/archive/github-profile-readme-clone/` with an `ARCHIVED.md` saying
+where its content went. Work here, in `shelf/product/SathishKumarAI`.
+
+`main` now carries that `CLAUDE.md`, which holds the Plane board conventions and - the part
+worth knowing - that this Plane is the Community edition, so `workitem list` with a `pql`
+is refused outright and filtering by the `repo:` label has to happen in your own head.
+
+One thing left deliberately: that file still says the label is `repo:github-profile-readme`
+while the surviving directory is `SathishKumarAI`. The label genuinely exists in Plane under
+the old name, so renaming it is a Plane change and a doc change together, not a typo fix.
+
+**The branch below is still undecided and still unpushed.** Nothing about it changed.
+
 ## Read this first
 
-**There is a second, separate portfolio: `~/coding/shelf/sathishkumarai.github.io`**
+**There is a second, separate portfolio: `~/Documents/coding/shelf/product/personal-portfolio`**
 (Next.js, "a portfolio in five chapters", 15 projects). It is the one meant for
 <https://sathishkumarai.github.io>, and its `STATUS.md` step 5 says to shrink *this*
 repo's README to a tagline plus a link to it. Keeping both was a deliberate call on
@@ -46,5 +66,7 @@ one and the bars lie.
 2. If GitHub Pages is wanted here: Settings → Pages → deploy from `main`, root. The site
    would land at <https://sathishkumarai.github.io/SathishKumarAI/>, which competes with
    the Next.js site's URL. Read that repo's `docs/DECISIONS.md` before choosing.
-3. Project facts came from `sathishkumarai.github.io/src/data/site.ts`. Re-check them
-   there rather than editing copy here from memory.
+3. Project facts came from that repo. The path moved in the workspace reorg and the
+   file moved too: it is now `personal-portfolio/portfolio/src/constants/projects.js`,
+   with the tool list beside it in `stack.js`. Re-check them there rather than editing
+   copy here from memory.
